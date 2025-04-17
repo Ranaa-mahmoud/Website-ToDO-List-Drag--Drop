@@ -6,7 +6,7 @@ Tasks are saved locally using your browser’s local storage.
 
 🔗 Live Demo
 
-[Try it here](https://github.com/Ranaa-mahmoud/Website-ToDO-List-Drag--Drop.git)
+[Try it here](https://github.com/Ranaa-mahmoud/Website-ToDO-List-Drag--Drop)
 
  ✅ Features
 
