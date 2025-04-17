@@ -1,6 +1,6 @@
  📝 ToDo List with Drag & Drop
 
-A simple and clean To Do List web app built with HTML, CSS, and JavaScript.  
+A simple and clean To Do List web site built with HTML, CSS, and JavaScript.  
 You can add, complete, delete, and reorder tasks using drag and drop.  
 Tasks are saved locally using your browser’s local storage.
 
