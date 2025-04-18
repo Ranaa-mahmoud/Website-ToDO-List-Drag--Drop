@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple To Do List website to manage tasks.">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="shortcut icon"
+    href="./images/favicon.ico.gif"
+    type="image/x-icon"
+    />
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <h1>~ To <span>Do List</span> ~</h1>
+    </header>
+    <main>
+        <section class="todo-container">
+                <img src="images/img.jpeg" alt="To Do List">
+            <form id="add-form">
+                <input type="text" placeholder="NEW TOdo..." id="todo-input">
+                <button type="submit" id="todo-btn">Add+</button>
+            </form>
+            <div class="boxes-container">
+                <article class="box" id="todo">
+                    <h3>TO DO</h3>
+                    <p class="task" draggable="true">playing football</p>
+                </article>
+                <article class="box" id="doing">
+                    <h3>DOING</h3>
+                    <p class="task" draggable="true">help mom</p>
+                </article>
+                <article class="box" id="done">
+                    <h3>DONE</h3>
+                    <p class="task" draggable="true">playing tennis</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
